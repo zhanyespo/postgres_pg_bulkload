@@ -1,0 +1,101 @@
+Setup started at: Sat Feb 22 08:42:20 +05 2025
+Starting setup process...
+Docker is installed.
+All required CSV files are present in ./data/csv_files.
+Setting up Python virtual environment...
+./assignment1.sh: line 51: ./venv/bin/activate: No such file or directory
+Installing dependencies from requirements.txt...
+./assignment1.sh: line 55: pip: command not found
+./assignment1.sh: line 56: pip: command not found
+Virtual environment setup complete.
+All required SQL files are present.
+Starting Docker Compose...
+ Container postgres_container  Running
+Docker Compose started successfully.
+Checking PostgreSQL container status...
+PostgreSQL container is running.
+Executing create_tables.sql in PostgreSQL...
+NOTICE:  drop cascades to 2 other objects
+DETAIL:  drop cascades to constraint comments_author_fk on table comments
+drop cascades to constraint submissions_author_fk on table submissions
+DROP TABLE
+DROP TABLE
+DROP TABLE
+DROP TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+CREATE TABLE
+NOTICE:  relation "submissions" already exists, skipping
+CREATE TABLE
+ERROR:  extension "pg_bulkload" already exists
+Successfully executed create_tables.sql.
+Starting pg_bulkload using generate_ctl_files.sh...
+Successfully executed generate_ctl_files.sh with pg_bulkload.
+Starting pg_bulkload using load_data.sh...
+Loading authors using /ctl_files/authors.ctl...
+NOTICE: BULK LOAD START
+NOTICE: BULK LOAD END
+	1 Rows skipped.
+	6158212 Rows successfully loaded.
+	0 Rows not loaded due to parse errors.
+	0 Rows not loaded due to duplicate errors.
+	0 Rows replaced with new rows.
+Successfully loaded authors
+Loading comments using /ctl_files/comments.ctl...
+NOTICE: BULK LOAD START
+NOTICE: BULK LOAD END
+	1 Rows skipped.
+	10557466 Rows successfully loaded.
+	0 Rows not loaded due to parse errors.
+	0 Rows not loaded due to duplicate errors.
+	0 Rows replaced with new rows.
+Successfully loaded comments
+Loading submissions using /ctl_files/submissions.ctl...
+NOTICE: BULK LOAD START
+NOTICE: BULK LOAD END
+	1 Rows skipped.
+	1263937 Rows successfully loaded.
+	0 Rows not loaded due to parse errors.
+	0 Rows not loaded due to duplicate errors.
+	0 Rows replaced with new rows.
+Successfully loaded submissions
+Loading subreddits using /ctl_files/subreddits.ctl...
+NOTICE: BULK LOAD START
+NOTICE: BULK LOAD END
+	1 Rows skipped.
+	914067 Rows successfully loaded.
+	0 Rows not loaded due to parse errors.
+	0 Rows not loaded due to duplicate errors.
+	0 Rows replaced with new rows.
+Successfully loaded subreddits
+Successfully executed load_data.sh with pg_bulkload.
+Executing create_relationships.sql in PostgreSQL...
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+CREATE INDEX
+Successfully executed create_relationships.sql.
+Executing queries.sql in PostgreSQL...
+DROP TABLE
+SELECT 1
+DROP TABLE
+SELECT 6
+DROP TABLE
+SELECT 10
+DROP TABLE
+SELECT 42
+DROP TABLE
+SELECT 2
+Successfully executed queries.sql.
+Setup completed successfully.
+Setup completed at: Sat Feb 22 08:45:45 +05 2025
+Total time taken: 3 minutes and 25 seconds
+! Do not forget to run docker-compose down

@@ -1,0 +1,306 @@
+
+pg_bulkload 3.1.22 on 2025-02-22 01:26:09.927176+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012609_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012609_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 01:26:09.927176+00
+Run ended on 2025-02-22 01:26:31.043208+00
+
+CPU 2.22s/6.81u sec elapsed 21.12 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:08:53.066355+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222030853_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222030853_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:08:53.066355+00
+Run ended on 2025-02-22 03:09:11.040937+00
+
+CPU 1.33s/5.68u sec elapsed 17.97 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:12:26.896664+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031226_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031226_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+Duplicate error Record 1: Rejected - duplicate key value violates unique constraint "authors_name_pk"
+Maximum duplicate error count exceeded
+
+pg_bulkload 3.1.22 on 2025-02-22 03:18:36.732328+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031836_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031836_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:18:36.732328+00
+Run ended on 2025-02-22 03:18:55.153219+00
+
+CPU 1.03s/6.35u sec elapsed 18.42 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:21:31.502618+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032131_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032131_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:21:31.502618+00
+Run ended on 2025-02-22 03:21:48.955441+00
+
+CPU 0.93s/5.81u sec elapsed 17.45 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:23:15.060416+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032315_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032315_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:23:15.060416+00
+Run ended on 2025-02-22 03:23:33.491468+00
+
+CPU 1.18s/5.76u sec elapsed 18.43 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:24:58.93986+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032458_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032458_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:24:58.93986+00
+Run ended on 2025-02-22 03:25:16.18497+00
+
+CPU 0.74s/4.87u sec elapsed 17.25 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:37:31.731551+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033731_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033731_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:37:31.731551+00
+Run ended on 2025-02-22 03:37:49.620847+00
+
+CPU 1.23s/5.96u sec elapsed 17.89 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:42:22.352686+00
+
+INPUT = /csv_files/authors.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034222_postgres_public_authors.prs.csv
+LOGFILE = /logs/authors_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.authors
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034222_postgres_public_authors.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  6158212 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:42:22.352686+00
+Run ended on 2025-02-22 03:42:39.013665+00
+
+CPU 1.08s/5.48u sec elapsed 16.66 sec

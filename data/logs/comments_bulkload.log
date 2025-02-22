@@ -1,0 +1,315 @@
+
+pg_bulkload 3.1.22 on 2025-02-22 01:26:31.06609+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012631_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012631_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 01:26:31.06609+00
+Run ended on 2025-02-22 01:27:57.743799+00
+
+CPU 5.81s/29.31u sec elapsed 86.68 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:09:11.07972+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222030911_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222030911_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:09:11.07972+00
+Run ended on 2025-02-22 03:10:24.218155+00
+
+CPU 5.47s/25.13u sec elapsed 73.14 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:13:07.404446+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031307_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031307_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:13:07.404446+00
+Run ended on 2025-02-22 03:15:29.136122+00
+
+CPU 7.30s/88.88u sec elapsed 141.73 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:18:55.178852+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031855_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031855_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:18:55.178852+00
+Run ended on 2025-02-22 03:20:07.009648+00
+
+CPU 4.24s/23.34u sec elapsed 71.83 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:21:48.998821+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032148_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032148_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:21:48.998821+00
+Run ended on 2025-02-22 03:23:01.295039+00
+
+CPU 4.14s/24.12u sec elapsed 72.30 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:23:33.518452+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032333_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032333_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:23:33.518452+00
+Run ended on 2025-02-22 03:24:44.664539+00
+
+CPU 3.79s/23.33u sec elapsed 71.15 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:25:16.213816+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032516_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032516_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:25:16.213816+00
+Run ended on 2025-02-22 03:26:28.299404+00
+
+CPU 3.61s/23.15u sec elapsed 72.09 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:37:49.650653+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033749_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033749_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:37:49.650653+00
+Run ended on 2025-02-22 03:38:54.798684+00
+
+CPU 7.17s/23.77u sec elapsed 65.15 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:42:39.03549+00
+
+INPUT = /csv_files/comments.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034239_postgres_public_comments.prs.csv
+LOGFILE = /logs/comments_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.comments
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034239_postgres_public_comments.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  10557466 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:42:39.03549+00
+Run ended on 2025-02-22 03:43:53.122993+00
+
+CPU 4.57s/24.17u sec elapsed 74.09 sec

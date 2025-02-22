@@ -1,0 +1,12 @@
+# Ignore virtual environments
+venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore OS-specific files
+.DS_Store
+
+# ignore CSV files
+data/csv_files

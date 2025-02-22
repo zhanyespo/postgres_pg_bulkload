@@ -1,0 +1,306 @@
+
+pg_bulkload 3.1.22 on 2025-02-22 01:28:06.788388+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012806_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012806_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 01:28:06.788388+00
+Run ended on 2025-02-22 01:28:14.708768+00
+
+CPU 0.40s/3.43u sec elapsed 7.92 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:10:32.303568+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031032_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031032_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:10:32.303568+00
+Run ended on 2025-02-22 03:10:39.095046+00
+
+CPU 0.44s/2.91u sec elapsed 6.79 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:15:42.318478+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031542_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031542_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+Duplicate error Record 1: Rejected - duplicate key value violates unique constraint "subreddits_name_pk"
+Maximum duplicate error count exceeded
+
+pg_bulkload 3.1.22 on 2025-02-22 03:20:14.528448+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032014_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032014_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:20:14.528448+00
+Run ended on 2025-02-22 03:20:21.634012+00
+
+CPU 0.32s/2.71u sec elapsed 7.11 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:23:08.149945+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032308_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032308_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:23:08.149945+00
+Run ended on 2025-02-22 03:23:14.763953+00
+
+CPU 0.33s/2.56u sec elapsed 6.61 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:24:51.803212+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032451_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032451_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:24:51.803212+00
+Run ended on 2025-02-22 03:24:58.574528+00
+
+CPU 0.28s/2.93u sec elapsed 6.77 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:26:35.393416+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032635_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032635_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:26:35.393416+00
+Run ended on 2025-02-22 03:26:41.836337+00
+
+CPU 0.37s/2.64u sec elapsed 6.44 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:39:02.122725+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033902_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033902_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:39:02.122725+00
+Run ended on 2025-02-22 03:39:09.856547+00
+
+CPU 0.98s/2.97u sec elapsed 7.73 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:43:59.70957+00
+
+INPUT = /csv_files/subreddits.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034359_postgres_public_subreddits.prs.csv
+LOGFILE = /logs/subreddits_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.subreddits
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034359_postgres_public_subreddits.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  914067 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:43:59.70957+00
+Run ended on 2025-02-22 03:44:06.379002+00
+
+CPU 0.42s/2.64u sec elapsed 6.67 sec

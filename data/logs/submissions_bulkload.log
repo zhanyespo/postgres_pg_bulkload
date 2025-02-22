@@ -1,0 +1,315 @@
+
+pg_bulkload 3.1.22 on 2025-02-22 01:27:57.784446+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012757_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222012757_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 01:27:57.784446+00
+Run ended on 2025-02-22 01:28:06.768579+00
+
+CPU 0.63s/2.63u sec elapsed 8.98 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:10:24.270811+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031024_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031024_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:10:24.270811+00
+Run ended on 2025-02-22 03:10:32.233585+00
+
+CPU 0.63s/2.42u sec elapsed 7.96 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:15:29.196459+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031529_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222031529_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:15:29.196459+00
+Run ended on 2025-02-22 03:15:42.298192+00
+
+CPU 0.93s/7.46u sec elapsed 13.10 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:20:07.028329+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032007_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032007_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:20:07.028329+00
+Run ended on 2025-02-22 03:20:14.506406+00
+
+CPU 0.50s/2.12u sec elapsed 7.48 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:23:01.322795+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032301_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032301_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:23:01.322795+00
+Run ended on 2025-02-22 03:23:08.124648+00
+
+CPU 0.36s/2.16u sec elapsed 6.80 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:24:44.689344+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032444_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032444_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:24:44.689344+00
+Run ended on 2025-02-22 03:24:51.781623+00
+
+CPU 0.45s/1.96u sec elapsed 7.09 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:26:28.323694+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032628_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222032628_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:26:28.323694+00
+Run ended on 2025-02-22 03:26:35.371157+00
+
+CPU 0.38s/1.75u sec elapsed 7.05 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:38:54.823412+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033854_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222033854_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:38:54.823412+00
+Run ended on 2025-02-22 03:39:02.093201+00
+
+CPU 0.68s/2.00u sec elapsed 7.27 sec
+
+pg_bulkload 3.1.22 on 2025-02-22 03:43:53.140668+00
+
+INPUT = /csv_files/submissions.csv
+PARSE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034353_postgres_public_submissions.prs.csv
+LOGFILE = /logs/submissions_bulkload.log
+LIMIT = INFINITE
+PARSE_ERRORS = 0
+CHECK_CONSTRAINTS = NO
+TYPE = CSV
+SKIP = 1
+DELIMITER = ,
+QUOTE = "\""
+ESCAPE = "\""
+NULL = 
+OUTPUT = public.submissions
+MULTI_PROCESS = NO
+VERBOSE = NO
+WRITER = DIRECT
+DUPLICATE_BADFILE = /var/lib/postgresql/data/pg_bulkload/20250222034353_postgres_public_submissions.dup.csv
+DUPLICATE_ERRORS = 0
+ON_DUPLICATE_KEEP = NEW
+TRUNCATE = NO
+
+
+  1 Rows skipped.
+  1263937 Rows successfully loaded.
+  0 Rows not loaded due to parse errors.
+  0 Rows not loaded due to duplicate errors.
+  0 Rows replaced with new rows.
+
+Run began on 2025-02-22 03:43:53.140668+00
+Run ended on 2025-02-22 03:43:59.668673+00
+
+CPU 0.38s/1.86u sec elapsed 6.53 sec

@@ -1,0 +1,31 @@
+services:
+  postgres:
+    build: .
+    container_name: postgres_container
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      # Mount init scripts
+      - ./init-scripts:/docker-entrypoint-initdb.d
+      # Mount CSV files directory
+      - ./data/csv_files:/csv_files
+      # Mount control files directory
+      - ./init-scripts/ctls:/ctl_files
+      - ./init-scripts:/init-scripts
+      # Mount logs directory
+      - ./data/logs:/logs
+      # Mount PostgreSQL data
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
